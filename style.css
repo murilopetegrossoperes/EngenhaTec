@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+/**/
+*{
+    padding: 0px;
+    
+}
+
+@font-face{
+    font-family: oswald;
+    src: url(fontes/Oswald-VariableFont_wght.ttf);
+
+}
+
+body{
+
+    background-color: #94cefd;
+    margin: auto;
+    
+}
+
+header{
+
+     background-image: linear-gradient(to bottom,  #327af7, #77C2F7);
+     text-align: center;
+     color: white;
+     padding: 1px;
+     font-family:oswald;
+     border-radius: 0px 0px 5px 5px;
+     min-width: 320px;
+     max-width: 2000px;
+    
+}
+
+nav{
+    font-family:oswald, sans-serif;
+}
+
+nav>p{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.398);
+    font-size: 1.2em;
+    border-radius: 10px;  
+
+}
+nav:hover{
+    transform: scale(1.1);
+}
+
+a{
+    color:black;  
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+ 
+}
+
+
+header>h1{
+text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.398);
+
+}
+
+
+main{
+    background-color: white;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.433);
+    margin: auto;
+    text-align: center;
+    min-width: 320px;
+    max-width: 1100px;
+    min-height: 520px;
+   max-height: 5590px;
+    font-size: 1.2em;
+
+    }
+
+img{
+    min-width: 10%;
+    max-width: 100%;
+}
+
+.imguni{
+    width:300px;
+
+}
+
+
+main>p{
+    text-indent: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.445);
+    
+    
+}
+
+main>h1{
+    color: #327af7;
+    box-shadow: inset 1100px 30px 4px 2px #8fa9ff8a;
+    font-family: "oswald" sans-serif;
+    text-align: left;
+    text-indent: 18px;
+    
+}
+
+main>h2{
+
+    color: #327af7;
+    box-shadow: inset 1100px 30px 4px 2px #8fa9ff8a;
+    font-family: "oswald" sans-serif;
+    text-align: start;
+    text-indent: 18px;
+}
+
+.html:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+
+.css:hover{
+opacity: 0.5;
+transform: scale(1.1);
+}
+
+
+
+div>h2{
+    color: white;
+}
+
+div{
+    background-color: #C5EBD6;
+    padding: 1px;
+    margin: auto;
+    text-align: left;
+    border-radius: 5px;
+    min-width: 320px;
+    max-width: 1000px;
+    
+}
+
+
+footer{
+   background-color: black;
+   text-align: center;
+   color: white;
+   margin: auto;
+   height: fit-content;
+}
+
+.rodape {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+     list-style-type: none;
+
+}
+
+.querobolsa{
+    color: #327af7;
+    text-decoration: underline;
+}
